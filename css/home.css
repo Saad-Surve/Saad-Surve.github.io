@@ -33,10 +33,10 @@ main{
     background: linear-gradient(138deg, rgba(247,44,209,1) 0%, rgba(255,192,203,1) 50%, rgba(247,44,209,1) 100%);
 }
 .name h1{
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
 }
 .name div{
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
     text-align: right   ;
 }
 .navbar{
@@ -91,14 +91,14 @@ display: flex;
     text-decoration: underline;
 font-size: 40px;
 font-weight: bold;
-font-family: 'Balsamiq Sans', cursive;
+font-family: 'Balsamiq Sans';
 text-align: center;
 
 }
 #text-small{
     
     font-size: 25px;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
 }
 .cuisine{
     display:flex;
@@ -124,13 +124,13 @@ text-align: center;
 #cp1{
     font-size: 40px;
 font-weight: bold;
-font-family: 'Balsamiq Sans', cursive;
+font-family: 'Balsamiq Sans';
 text-align: center;
 text-decoration: underline;
 }
 #cp2{
     font-size: 25px;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
     padding: 10px;
 }
 .amenities{
@@ -151,13 +151,13 @@ text-decoration: underline;
 #a1{
     font-size: 40px;
 font-weight: bold;
-font-family: 'Balsamiq Sans', cursive;
+font-family: 'Balsamiq Sans';
 text-align: center;
 text-decoration: underline;
 }
 #a2{
     font-size: 25px;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
     padding: 10px; 
 }
 #amnimg{
@@ -181,13 +181,13 @@ text-decoration: underline;
 #t1{
     font-size: 40px;
 font-weight: bold;
-font-family: 'Balsamiq Sans', cursive;
+font-family: 'Balsamiq Sans';
 text-align: center;
 text-decoration: underline;
 }
 #t2{
     font-size: 25px;
-    font-family: 'Balsamiq Sans', cursive;
+    font-family: 'Balsamiq Sans';
     padding: 10px;
 }
 #touimg{

@@ -17,10 +17,10 @@
         background-color: rgb(255, 245, 100);
     }
     .name h1{
-        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Balsamiq Sans';
     }
     .name div{
-        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Balsamiq Sans';
         text-align: right   ;
     }
     .mainbar{
@@ -90,7 +90,7 @@
         
     }
     main{
-        font-family: 'Balsamiq Sans', cursive;
+        font-family: 'Balsamiq Sans';
         background: rgb(247,44,209);
         background: linear-gradient(138deg, rgba(247,44,209,1) 0%, rgba(255,192,203,1) 50%, rgba(247,44,209,1) 100%);
     
