@@ -1,0 +1,307 @@
+*{margin: 0px;
+padding: 0px;
+box-sizing: border-box;}
+.covid{ background-color: rgb(184, 253, 255);
+    padding:10px 0px;
+    border: 5px outset rgb(83, 105, 235);}
+marquee a{
+    font-size: 20px;
+    color: red;
+    
+}
+marquee a :visited{
+    color: red;
+}
+header{
+    background-color: rgb(255, 245, 100);
+}
+.name h1{
+    font-family: 'Balsamiq Sans', cursive;
+}
+.name div{
+    font-family: 'Balsamiq Sans', cursive;
+    text-align: right   ;
+}
+.mainbar{
+display: flex;
+width: 60%;
+
+justify-content: space-between;
+align-items: center;
+}
+header img{
+    width:13%;
+    
+}
+
+
+#magnifiek{
+color:white;
+font-family:comic sans ms;
+background-color:blue;
+font-size:30px;	
+text-align:center;width:92.12%;float:right;
+
+
+
+}
+
+#paradise{
+color:white;
+font-family:comic sans ms;
+
+font-size:25px;	
+text-align:center;
+background-color:blue;
+width:92.12%;float:right;
+
+
+}
+
+.navbar{
+display: flex;
+background-color: rgb(6, 95, 6);
+position: sticky;
+top:0px;
+border-bottom:3px solid black;
+border-top: 3px solid black;
+}
+.navlist{
+display: flex;
+}
+.navlist li{
+    list-style: none;
+    padding: 15px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    border-right: 3px solid black;
+    
+}
+.navlist li a{
+    text-decoration: none;
+    color:white;
+    padding: 15px ;
+}
+.navlist li a:hover{
+    transition: all 0.7s ease-in-out;
+    background-color: white;
+    color: black;
+    
+} 
+
+
+
+.warner{
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 80%;
+margin:auto }
+.warner1{
+    width:50%;
+    text-align: center;
+}
+.warner2{
+    width:50%;
+    font-size: 25px;
+    padding: 0px 15px;
+}
+#w1{
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 15px;
+}
+#w3{
+    text-align: center;
+    font-style: italic;
+}
+.rogerson{                         
+display: flex;
+justify-content: center;
+align-items: center;
+max-width: 70%;
+font-size:30px;
+margin: auto;      
+flex-direction: column;   
+padding: 10px 0px;    
+}
+#abtname{
+    text-decoration: underline;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+}
+.victoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin:auto }
+    .victoria1{
+        width:62%;
+        text-align: center;
+    }
+    .victoria2{
+        width:50%;
+        font-size:25px;
+    }
+    #v1{
+        text-align: center;
+       font-weight: bold;
+       text-decoration: underline;
+       font-size: 35px;
+    }
+    #v3{
+        text-align: center;
+        font-style: italic;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: white;
+}
+.copyright{
+    width: 60%;
+    text-align: right;
+    font-size: 20px;
+
+}
+.social{
+    width:40%;
+    }
+.social img{
+    width: 50px;
+    height: 50px;
+    float: right;
+    display:flex;
+    margin: 0px 15px;
+    padding: 8px;
+}
+main{
+    font-family: 'Balsamiq Sans', cursive;
+    background: rgb(247,44,209);
+background: linear-gradient(138deg, rgba(247,44,209,1) 0%, rgba(255,192,203,1) 50%, rgba(247,44,209,1) 100%);
+    
+}
+@media screen and (max-width:820px)
+{ 
+    .navlist{
+        flex-direction: column;
+        text-align: center;
+       margin:auto;  
+       }
+       .navlist li{
+           border:none;
+       }
+       .navbar{
+           position: static;
+       }
+       footer{
+           flex-direction: column;
+       }
+       .copyright{
+           width:100%;
+           text-align: center;
+           padding: 10px;
+       }
+       .social{
+   width: 100%;
+   text-align: center;
+       }
+   
+   .mainbar{
+       width:100%;
+   }
+   header img{
+       width:25%;
+   }
+.warner{
+    flex-direction: column-reverse;
+}
+.warner img{
+    max-width: 100%;
+}
+.victoria{
+    flex-direction: column;
+}
+.warner1{
+    width: 100%;
+    text-align: center;
+}
+.warner2{
+    width: 100%;
+    
+}
+.victoria2{
+    width: 100%;
+    
+}
+.victoria1{
+    width: 100%;
+}
+}
