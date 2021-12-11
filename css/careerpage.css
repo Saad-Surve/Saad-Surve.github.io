@@ -195,7 +195,9 @@ text-align: center;
     header img{
         width:25%;
     }
-    
+    #govt{
+        max-width: 100%;
+    }
     }
     
     
