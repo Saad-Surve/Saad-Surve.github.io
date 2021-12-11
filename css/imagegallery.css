@@ -103,9 +103,18 @@
        justify-content: center;
        width: 60%;
        margin: auto;
+       flex-direction: column;
+   }
+   #imgsubmit{
+       font-size: 20px;
+       width: 40%;
+       text-align: center;
+       margin: auto;
+       padding: 15px;
    }
    #fileinput{
        font-size: 20px;
+       margin: auto;
        
    }
    .imginput p{ max-width: 70%;
